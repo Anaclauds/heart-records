@@ -25,11 +25,18 @@ Os objetivos deste projeto são:
 
 ## Funcionalidades Planejadas
 
-1. **Página Inicial:** Apresentação da gravadora, com destaque para artistas e lançamentos recentes.
-2. **Catálogo de Artistas:** Página com uma lista de artistas da gravadora, cada um com uma breve descrição e foto.
-3. **Lançamentos:** Exibição dos últimos lançamentos musicais, com opção de reproduzir trechos das músicas.
-4. **Agenda de Eventos:** Calendário com os próximos eventos, como shows e lançamentos especiais.
-5. **Contato:** Formulário de contato para os visitantes enviarem mensagens e perguntas diretamente à gravadora.
+Página Home: Destaques musicais recentes, eventos emocionantes e lançamentos.
+
+Página Quem Somos: Narrativa sobre a origem, missão e paixão da nossa jornada musical.
+
+Página de Vendas: Venda de músicas, albuns e merchs de artistas presentes no nosso catálogo.
+
+Página Gêneros Musicais: Visão geral de gêneros musicais, com destaque para suas características distintas.
+
+Página Contato: Formulário de contato para envio de mensagens, perguntas e feedback.
+
+Página Localização: Mapa com marcadores que indicam nosso local físico e eventos futuros.
+
 
 ## Tecnologias Utilizadas
 
