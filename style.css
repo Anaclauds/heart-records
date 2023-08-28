@@ -1,0 +1,8 @@
+.imagem-com-borda {
+border: 2px solid #2c9eb2; /* Estilo da borda: largura, estilo e cor */
+padding: 10px; /* Espaçamento interno para a imagem */
+}
+
+h1{
+    color: blue;
+}
