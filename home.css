@@ -1,0 +1,24 @@
+
+
+
+
+.iframe-container {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os iframes */
+}
+
+.iframe-wrapper {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.iframe-wrapper iframe {
+    width: 500%;
+    height: 500px;
+    border: none;
+}
+
+
+
+
