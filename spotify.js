@@ -5,8 +5,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        prevArrow: '<button type="button" class="slick-prev">Anterior</button>',
-        nextArrow: '<button type="button" class="slick-next">Pr&oacute;ximo</button>' // Use o código HTML &oacute; para "ó"
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>' // Use o código HTML &oacute; para "ó"
     });
 });
 
