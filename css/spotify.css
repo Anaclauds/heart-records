@@ -6,6 +6,8 @@
     margin: 0 auto;
 }
 
+body {background-color: #828181;}
+
 .iframe-slide {
     width: 300px;
     padding: 10px;
@@ -21,7 +23,7 @@
 /* Estilize os botões de navegação */
 .slick-prev,
 .slick-next {
-    background-color: #3f7778; /* Cor de fundo */
+    background-color: hsl(0, 0%, 3%); /* Cor de fundo */
     color: #fff; /* Cor do texto */
     border: none;
     border-radius: 50%;
