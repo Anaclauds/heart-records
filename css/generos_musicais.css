@@ -6,7 +6,21 @@
     margin: 0 auto;
 }
 
-body {background-color: #828181;}
+h1{
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 100;
+}
+
+.block{
+    height: 80px;
+   
+}
+
+body {background-color: #070217;}
 
 .iframe-slide {
     width: 300px;
@@ -23,7 +37,7 @@ body {background-color: #828181;}
 /* Estilize os botões de navegação */
 .slick-prev,
 .slick-next {
-    background-color: hsl(0, 0%, 3%); /* Cor de fundo */
+    background-color: hsl(0, 11%, 85%); /* Cor de fundo */
     color: #fff; /* Cor do texto */
     border: none;
     border-radius: 50%;
