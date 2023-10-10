@@ -3,26 +3,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #070217;
 }
+
+.logo {
+    width: 250px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+
+  }
+  
 header {
-    background-color: #300404;
+    background-color: #514e5d;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    
 }
+
 nav {
-    background-color: #444;
+    background-color: #514e5d;
     text-align: center;
+    font-weight: 700;
     padding: 10px 0;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
+    font-size: 20px;
 }
 nav a:hover {
     text-decoration: underline;
+
+   
 }
 section {
     padding: 20px;
 }
+
