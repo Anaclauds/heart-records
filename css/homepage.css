@@ -42,3 +42,32 @@ section {
     padding: 20px;
 }
 
+
+
+
+
+span {
+    font-size: x-large;
+  }
+  
+  img {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+  }
+  
+  .swiper {
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }

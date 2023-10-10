@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/homepage.css">
-    <!-- LINK DO CSS DO SWIPER-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+
     <title>HEART RECORDS</title>
 
 </head>
@@ -15,6 +19,7 @@
             <img class="logo" src="./img/logo heart records.png" alt="logo">
         </center>
     </header>
+
     <nav>
         <a href="home.html">Home</a>
         <a href="quem_somos.html">Quem somos</a>
@@ -25,10 +30,41 @@
     </nav>
 
 
-
+    <section>
+        <main>
+            <span>SLIDER</span>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                      <img src="./img/matias.png" alt="Foto 01">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                      <img src="./img/logo heart records.png" alt="Foto 02">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                      <img src="./img/foto_03.png" alt="Foto 03">
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </main>
+    </section>
+    
     <footer class="footer">
     
         <footer_style>Heart Records 2023 ® Todos os direitos reservados.</footer_style>
     </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
