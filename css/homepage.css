@@ -9,7 +9,7 @@ body {
 .logo {
     width: 250px; /* Defina a largura desejada */
     height: auto; /* Mantém a proporção original da imagem */
-
+    
   }
   
 header {
@@ -39,7 +39,7 @@ nav a:hover {
    
 }
 section {
-    padding: 20px;
+    
 }
 
 
@@ -61,11 +61,15 @@ span {
   
   .swiper-slide {
     text-align: center;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
   
+  .swiper-button-next,
+  .swiper-button-prev {
+  color: white; /* Define a cor das setas para branca */
+}
+
   @media (max-width: 450px) {
     .swiper {
       height: 270px;
