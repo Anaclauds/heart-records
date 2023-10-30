@@ -1,1 +1,55 @@
-body {background-color: #828181;}
+          
+
+
+body{
+    background-color: #070217;
+}          
+
+/* Estilo para as seções */
+section {
+    background-color: #070217; /* Cor de fundo para as seções */
+    border-radius: 10px; /* Borda arredondada com raio de 10px */
+    width: 49%; /* Defina uma largura menor para dar espaço entre as seções */
+    margin-right: 1%; /* Adicione uma margem à direita para criar espaço entre as seções */
+    padding: 10px; /* Espaçamento interno dentro das seções */
+    box-sizing: border-box; /* Inclui a borda na largura total */
+    float: left; /* Alinha as seções lado a lado */
+}
+
+/* Estilo para a última seção (para evitar margem à direita) */
+section:last-child {
+    margin-right: 0; /* Remova a margem à direita da última seção */
+}
+
+
+/* Estilo para os títulos das seções */
+section h2 {
+    color: #ccc; /* Cor do texto do título */
+}
+
+/* Estilo para os parágrafos nas seções */
+section p {
+    color: #ccc; /* Cor do texto do parágrafo */
+}
+
+/* Estilo para a lista não ordenada nas seções */
+section ul {
+    list-style-type: disc; /* Estilo de marcadores de lista */
+    padding-left: 20px; /* Espaçamento à esquerda para os marcadores */
+    color: #ccc; /* Cor do texto */
+}
+
+/* Estilo para os links de contato */
+section a {
+    color: #0078d4; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #333; /* Cor de fundo para o rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    text-align: center; /* Alinhar o texto ao centro */
+    padding: 10px; /* Espaçamento interno no rodapé */
+    clear: both; /* Limpa as flutuações após as seções */
+}
