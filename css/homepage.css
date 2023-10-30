@@ -7,10 +7,27 @@ body {
 }
 
 .logo {
-    width: 250px; /* Defina a largura desejada */
+    width: 350px; /* Defina a largura desejada */
     height: auto; /* Mantém a proporção original da imagem */
-    
   }
+
+.sacola{
+  width: 40px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+}
+
+.user{
+    width: 40px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+}
   
 header {
     background-color: #514e5d;
@@ -38,13 +55,6 @@ nav a:hover {
 
    
 }
-section {
-    
-}
-
-
-
-
 
 span {
     font-size: x-large;
