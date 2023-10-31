@@ -9,6 +9,7 @@ body {
 .logo {
     width: 350px; /* Defina a largura desejada */
     height: auto; /* Mantém a proporção original da imagem */
+    margin-top: 40px;
     
   }
 
@@ -68,6 +69,8 @@ span {
   
   .swiper {
     height: 500px;
+    max-height: 70vh;
+    margin-bottom: 100px;
   }
   
   .swiper-slide {
