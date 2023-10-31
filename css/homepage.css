@@ -9,6 +9,7 @@ body {
 .logo {
     width: 350px; /* Defina a largura desejada */
     height: auto; /* Mantém a proporção original da imagem */
+    
   }
 
 .sacola{
@@ -18,6 +19,7 @@ body {
     top: 0;
     right: 0;
     margin: 40px;
+    margin-right: 100px;
 }
 
 .user{
@@ -61,7 +63,6 @@ span {
   }
   
   img {
-    box-shadow: 0 1px 2px #0003;
     width: 100%;
   }
   
