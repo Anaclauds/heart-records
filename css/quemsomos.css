@@ -45,11 +45,3 @@ section a {
     text-decoration: none; /* Remover sublinhado dos links */
 }
 
-/* Estilo para o rodapé */
-.footer {
-    background-color: #333; /* Cor de fundo para o rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    text-align: center; /* Alinhar o texto ao centro */
-    padding: 10px; /* Espaçamento interno no rodapé */
-    clear: both; /* Limpa as flutuações após as seções */
-}

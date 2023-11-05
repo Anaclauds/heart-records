@@ -1,9 +1,9 @@
-footer_style{
+footer{
     color: #fff;
     width: 100%;
     border: none;
     border-radius: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font: 100;
-    text-align: right;
+    text-align: center;
 }
