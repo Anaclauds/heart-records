@@ -1,47 +1,64 @@
-          
-
-
-body{
+body {
     background-color: #070217;
-}          
+    min-height: 100vh; /* Adicionado para garantir a altura mínima da janela do navegador */
+}
+
 
 /* Estilo para as seções */
 section {
-    background-color: #070217; /* Cor de fundo para as seções */
-    border-radius: 10px; /* Borda arredondada com raio de 10px */
-    width: 49%; /* Defina uma largura menor para dar espaço entre as seções */
-    margin-right: 1%; /* Adicione uma margem à direita para criar espaço entre as seções */
-    padding: 10px; /* Espaçamento interno dentro das seções */
-    box-sizing: border-box; /* Inclui a borda na largura total */
-    float: left; /* Alinha as seções lado a lado */
+    background-color: #514e5d;
+    border-radius: 20px;
+    width: 30%; /* Ajustado para 30% para acomodar três colunas com margem */
+    margin-right: 3%; /* Reduzido para 2% para dar espaço entre as seções */
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 50%; 
+    box-sizing: border-box;
+    display: inline-block; /* Mantido como inline-block para manter a largura e permitir que fiquem lado a lado */
+    vertical-align: top; /* Alinha as seções ao topo para garantir que estejam alinhadas corretamente */
 }
 
 /* Estilo para a última seção (para evitar margem à direita) */
 section:last-child {
-    margin-right: 0; /* Remova a margem à direita da última seção */
+    margin-right: 0;
 }
-
 
 /* Estilo para os títulos das seções */
 section h2 {
-    color: #ccc; /* Cor do texto do título */
+    color: #ccc;
 }
 
 /* Estilo para os parágrafos nas seções */
 section p {
-    color: #ccc; /* Cor do texto do parágrafo */
+    color: #ccc;
 }
 
 /* Estilo para a lista não ordenada nas seções */
 section ul {
-    list-style-type: disc; /* Estilo de marcadores de lista */
-    padding-left: 20px; /* Espaçamento à esquerda para os marcadores */
-    color: #ccc; /* Cor do texto */
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ccc;
 }
 
 /* Estilo para os links de contato */
 section a {
-    color: #0078d4; /* Cor do link */
-    text-decoration: none; /* Remover sublinhado dos links */
+    color: #0078d4;
+    text-decoration: none;
 }
 
+/* Adicionado um estilo para o conteúdo principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* Estilo específico para a imagem do Compromisso na SECTION1 */
+section1 img.commitment-image {
+    width: calc(100% + 10px); /* Ajusta a largura para 100% + 10px para compensar o margin-left */
+    border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+    margin-top: 10px; /* Adiciona um espaço entre o texto e a imagem */
+    margin-left: -80px; /* Move a imagem 10 pixels para a esquerda (ajuste conforme necessário) */
+}
