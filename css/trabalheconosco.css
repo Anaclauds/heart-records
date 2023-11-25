@@ -1,0 +1,41 @@
+nav a {
+    color: #fff !important; /* Utiliza !important para garantir que esta regra tenha prioridade */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+nav a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+nav a:hover:before {
+    background-color: #fff;
+}
+
+
+
+
+.form-label {
+    color: #fff !important; /* Utiliza !important para garantir que esta regra tenha prioridade */
+}
+
+
+/* Adicione isso ao seu CSS */
+.form-label {
+    color: #fff !important;
+}
+
+
+p{
+    color: #fff;
+}
