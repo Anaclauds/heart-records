@@ -14,6 +14,7 @@
 <body>   
     <main id="container">
         <form id="login_form">
+            
             <!-- FORM HEADER -->
             <div id="form_header">
                 <h1>Login</h1>
@@ -50,18 +51,7 @@
                         </div>
                     </label>
                 </div>
-                
-                <!-- EMAIL -->
-                <div class="input-box">
-                    <label for="email">
-                        E-mail
-                        <div class="input-field">
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" id="email" name="email">
-                        </div>
-                    </label>
-                </div>
-                
+    
                 <!-- PASSWORD -->
                 <div class="input-box">
                     <label for="password">
@@ -80,12 +70,21 @@
                     </div>
                 </div>
             </div>
-
-            <!-- LOGIN BUTTON -->
-            <button type="submit" id="login_button">
-                Login
-            </button>
-        </form>
+         
+            <form id="login_form" method="post">
+                <!-- Outros campos do formulário, se houver -->
+            
+                <!-- LOGIN BUTTON -->
+                <button type="button" id="login_button" onclick="redirecionarPagina()">
+                    LOGIN
+                </button>
+            </form>
+            
+            <script>
+                function redirecionarPagina() {
+                    window.location.href = 'home_page_basic.html';
+                }
+            </script>
     </main>
 
     <!-- JAVASCRIPT -->

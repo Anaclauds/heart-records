@@ -89,3 +89,14 @@ span {
       height: 270px;
     }
   }
+
+
+
+  #imagem_link {
+    width: 40px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+}
