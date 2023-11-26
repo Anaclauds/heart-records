@@ -62,12 +62,19 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Nos conte sobre você</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="background-color: #514e5d; color: #fff;"></textarea>
                     </div>
-                    <input class="btn btn-primary" type="submit" value="Enviar">
+                    <input class="btn btn-primary" type="submit" value="Enviar" onclick="mostrarMensagem()">
                 </div>
             </div>
         </div>
         
         
           <footer>Heart Records 2023 ® Todos os direitos reservados.</footer>
+
+          <script>
+            function mostrarMensagem() {
+                // Adicione lógica adicional aqui, se necessário
+                window.alert("Formulário enviado com sucesso!");
+            }
+        </script>
 </body>
 </html>
