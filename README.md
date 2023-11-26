@@ -23,21 +23,6 @@ Os objetivos deste projeto são:
 2. Utilizar CSS para estilizar o site, tornando-o visualmente atrativo e alinhado com a identidade da gravadora Heart Records.
 3. Incorporar elementos interativos usando JavaScript para melhorar a experiência do usuário.
 
-## Funcionalidades Planejadas
-
-Página Home: Destaques musicais recentes, eventos emocionantes e lançamentos.
-
-Página Quem Somos: Narrativa sobre a origem, missão e paixão da nossa jornada musical.
-
-Página de Vendas: Venda de músicas, albuns e merchs de artistas presentes no nosso catálogo.
-
-Página Gêneros Musicais: Visão geral de gêneros musicais, com destaque para suas características distintas.
-
-Página Contato: Formulário de contato para envio de mensagens, perguntas e feedback.
-
-Página Localização: Mapa com marcadores que indicam nosso local físico e eventos futuros.
-
-
 ## Tecnologias Utilizadas
 
 - HTML: Para estruturar as páginas web.
