@@ -35,7 +35,11 @@ nav a:hover:before {
     color: #fff !important;
 }
 
-
-p{
+p {
     color: #fff;
+    font-size: 20px; 
+    margin-top: 40px;
 }
+
+
+
