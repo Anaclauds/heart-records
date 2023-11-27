@@ -1,5 +1,4 @@
 body{
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #070217;
@@ -15,9 +14,11 @@ h1, h3{
     width: 100%;
     border: none;
     border-radius: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font: 100;
 }
+
+h1{}
 
 .block{
     height: 80px;
@@ -27,4 +28,5 @@ h1, h3{
 .card-title{
     font-weight:600;
 }
+
 

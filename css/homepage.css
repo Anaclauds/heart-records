@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #070217;
@@ -66,6 +66,15 @@ span {
   img {
     width: 100%;
   }
+
+ 
+h2 {
+  font-family: 'Arial', sans-serif; 
+  color: #fbf7f7; 
+  font-weight: 900;
+  font-size: 90px;
+  text-shadow: 2px 2px 4px #FF69B4;
+}
   
   .swiper {
     height: auto;
